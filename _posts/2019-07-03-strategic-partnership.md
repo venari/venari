@@ -14,6 +14,28 @@ With over 20 years over of GIS consulting experience Trevor brings a wealth of k
 ![scott](../../../img/partnerships/scott.jpg#portrait)
 Scott has worked with Esri technologies since 2002.  Starting out as an analyst, he has worked in desktop and web development, business system integration, geo-database administration, R&D, consultancy and architectural services.  
 
+![trevor](../../../img/partnerships/trevor.jpg#portrait)
+## Trevor Hart
+With over 20 years over of GIS consulting experience Trevor brings a wealth of knowledge to ope.
+
+![scott](../../../img/partnerships/scott.jpg#portrait)
+## Scott Tansley
+Scott has worked with Esri technologies since 2002.  Starting out as an analyst, he has worked in desktop and web development, business system integration, geo-database administration, R&D, consultancy and architectural services.  
+
+
+## Trevor Hart
+![trevor](../../../img/partnerships/trevor.jpg#portrait)
+
+With over 20 years over of GIS consulting experience Trevor brings a wealth of knowledge to ope.
+
+## Scott Tansley
+![scott](../../../img/partnerships/scott.jpg#portrait)
+
+Scott has worked with Esri technologies since 2002.  Starting out as an analyst, he has worked in desktop and web development, business system integration, geo-database administration, R&D, consultancy and architectural services.  
+
+
+
+
 He has become a trusted adviser to multiple NZ Government entities and has gained a reputation for successful project delivery, mentoring of staff and forming relationships which bridge the IT and GIS teams within small and large organisations.
 
 [scott-tansley]: https://www.linkedin.com/in/scotttansley
