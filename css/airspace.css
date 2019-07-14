@@ -807,10 +807,10 @@ footer .footer-manu ul li a:hover {
 }
 
 img[src*="#thumbnail"] {
-   width:150px;
-   height:100px;
+   width:150px!important;
+   height:100px!important;
 }
 
 img[src*="#portrait"] {
-   width:200px;
+   width:200px!important;
 }
