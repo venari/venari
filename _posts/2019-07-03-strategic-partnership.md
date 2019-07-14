@@ -7,11 +7,11 @@ Venari is very pleased to announce its strategic partnership with [Scott Tansley
 This partnership builds upon a long professional and personal relationship with both Scott and Trevor, and forms a valuable pool of knowledge and experience that supports us in servicing our clients in the NZ GIS community.
 
 ## Trevor Hart
-![trevor](../../../img/partnerships/trevor.jpg){:width="200px"}
+![trevor](../../../img/partnerships/trevor.jpg){:height="273px" width="200px"}
 With over 20 years over of GIS consulting experience Trevor brings a wealth of knowledge to ope.
 
 ## Scott Tansley
-![scott](../../../img/partnerships/scott.jpg){:width="200px"}
+![scott](../../../img/partnerships/scott.jpg){:height="273px" width="200px"}
 Scott has worked with Esri technologies since 2002.  Starting out as an analyst, he has worked in desktop and web development, business system integration, geo-database administration, R&D, consultancy and architectural services.  
 
 He has become a trusted adviser to multiple NZ Government entities and has gained a reputation for successful project delivery, mentoring of staff and forming relationships which bridge the IT and GIS teams within small and large organisations.
