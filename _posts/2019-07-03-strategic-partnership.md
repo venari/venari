@@ -8,6 +8,9 @@ This partnership builds upon a long professional and personal relationship with 
 
 ## Trevor Hart
 ![trevor](../../../img/partnerships/trevor.jpg){:height="273px" width="200px"}
+<img src="../../../img/partnerships/trevor.jpg">
+<img src="../../../img/partnerships/trevor.jpg" width="200" height="273">
+<img src="../../../img/partnerships/trevor.jpg" width="200" >
 With over 20 years over of GIS consulting experience Trevor brings a wealth of knowledge to ope.
 
 ## Scott Tansley
