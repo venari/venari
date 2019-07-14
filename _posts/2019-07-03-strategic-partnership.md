@@ -7,7 +7,13 @@ Venari is very pleased to announce its strategic partnership with [Scott Tansley
 This partnership builds upon a long professional and personal relationship with both Scott and Trevor, and forms a valuable pool of knowledge and experience that supports us in servicing our clients in the NZ GIS community.
 
 ## Trevor Hart
-![trevor](../../../img/partnerships/trevor.jpg){:height="273px" width="200px"}
+![trevor](../../../img/partnerships/trevor.jpg)
+![trevor](../../../img/partnerships/trevor.jpg#thumbnail)
+![trevor](../../../img/partnerships/trevor.jpg#portrait)
+![trevor](../../../img/partnerships/trevor.jpg){width:200px;}
+![trevor](../../../img/partnerships/trevor.jpg){width:200px;}
+![trevor](../../../img/partnerships/trevor.jpg){:width=200px}
+![trevor](../../../img/partnerships/trevor.jpg){:height=273px width=200px}
 <img src="../../../img/partnerships/trevor.jpg">
 <img src="../../../img/partnerships/trevor.jpg" width="200" height="273">
 <img src="../../../img/partnerships/trevor.jpg" width="200" >

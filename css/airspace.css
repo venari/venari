@@ -805,3 +805,12 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+img[src*="#thumbnail"] {
+   width:150px;
+   height:100px;
+}
+
+img[src*="#portrait"] {
+   width:200px;
+}
