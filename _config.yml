@@ -28,6 +28,9 @@ markdown: kramdown
 # Google analytics
 ga_tracking_id: "UA-52815935-2"
 
+plugins:
+  - jekyll-redirect-from
+
 # Category descriptions (for archive pages)
 descriptions:
   - cat: jekyll
