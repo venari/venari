@@ -1,0 +1,152 @@
+---
+layout: page
+title: Aerial Photography Services
+permalink: /aerial-photography/
+---
+
+
+    <!-- Slider Start -->
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Aerial Photography & Mapping Services</h1>
+                    <p>
+                      With a background in photography and mapping, we can capture photography, video, and 3D data for your project.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Portfolio Start -->
+<section id="development">
+    <div class="container">
+          <div class="col-md-12">
+
+            <div class="row">
+              <div class="col-md-6">
+
+                <div class="row">
+                  <div class="col-md-10">
+                    <div class="row">
+                      <h2>Aerial Photography</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="row">
+                      <a href="../aerial-photography-hi-res-example" target=_blank>fullscreen</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div id="viewer"></div>
+                  <style>
+                    #viewer {
+                      width: 98%;
+                      height: 315px;
+                    }
+                  </style>
+
+                  <script>
+                    var viewer = new PhotoSphereViewer({
+                      container: 'viewer',
+                      panorama: 'https://live.staticflickr.com/65535/32809721967_372136821e_k_d.jpg',
+                      _panorama: 'https://live.staticflickr.com/65535/32809721967_6406c633e9_o_d.jpg',
+                      time_anim: 1500,
+                      default_long: -0.15,
+                      default_lat: -0.3,
+                      caption: 'Titahi Bay, Porirua, New Zealand.',
+                      navbar: false,
+                      mousewheel: false
+                      // navbar_style: {
+                      //   backgroundColor: "rgba(58, 67, 77, 0.7)"
+                      // }
+                    });
+                  </script>
+                </div>
+
+
+              </div>
+              <div class="col-md-6">
+
+                <div class="row">
+                  <div class="col-md-10">
+                    <div class="row">
+                      <h2>Aerial Video</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="row">
+                      <a href="https://youtu.be/VZlxIGwV9cA" target=_blank>fullscreen</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <iframe width="98%" height="315" src="https://www.youtube.com/embed/VZlxIGwV9cA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-10">
+                    <div class="row">
+                      <h2>Aerial Mapping</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="row">
+                      <a href="https://www.mapsmadeeasy.com/maps/public/da9bffd45abd486f95a03775bb8c1f4f/" target=_blank>fullscreen</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <iframe src="https://www.mapsmadeeasy.com/maps/public/da9bffd45abd486f95a03775bb8c1f4f" scrolling="no" title="Maps Made Easy" width="98%" height="400" frameBorder ="0"></iframe>
+                </div>
+
+              </div>
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-10">
+                    <div class="row">
+                      <h2>3D Data Capture</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="row">
+                      <a href="https://www.mapsmadeeasy.com/maps/public_3D/da9bffd45abd486f95a03775bb8c1f4f/" target=_blank>fullscreen</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <iframe src="https://www.mapsmadeeasy.com/maps/public_3D/da9bffd45abd486f95a03775bb8c1f4f" scrolling="no" title="Maps Made Easy" width="98%" height="400" frameBorder ="0"></iframe>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+    </div>
+</section>
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Need aerial photography, video or 3D data capture for your project?</h2>
+          <p>Contact us to discuss your requirements.</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
