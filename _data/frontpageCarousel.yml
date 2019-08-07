@@ -1,0 +1,27 @@
+- title: Aerial Photography
+  description: "Need aerial photography, video or 3D data capture for your project?"
+  image: img/front-page-carousel/tg-extract2.gif
+  altText: "A video flythrough of Transmission Gully Link Roads"
+- title: Realtime data visualisation
+  description: "."
+  _image: img/carousel-img3.jpg
+  image: img/front-page-carousel/tg-extract2.gif
+  altText: ""
+- title: Realtime data visualisation 2
+  description: "."
+  _image: img/carousel-img4.jpg
+  image: img/front-page-carousel/tg-extract2.gif
+  altText: ""
+- title: Aerial Mapping
+  description: "Photogrammetry and 3D data capture"
+  image: img/front-page-carousel/castor-cresc-1x2-optimised.gif
+  altText: "A 3D model of Castor Crescent, Porirua"
+
+
+
+            # carousel
+            # photography (possibly panoshpere)
+            # video extract (T Gully with text)
+            # Brown OWL map swipe GIF (get permission)
+            # Astara?
+            # Vessel movement thing? Perhaps Tile38

@@ -5,9 +5,32 @@ $(document).ready(function(){
 
 
 	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
+	    paginationSpeed : 500,
 	    singleItem:true,
 	    autoPlay: 3000,
+	});
+
+	$("#frontpage-example-slider").owlCarousel({
+	    paginationSpeed : 1000,
+	    singleItem:true,
+	    autoPlay: 5000,
+			// responsiveClass: true,
+			// responsive:{
+			// 	0:{
+			// 			items:1,
+			// 			nav:true
+			// 	},
+			// 	600:{
+			// 			items:3,
+			// 			nav:false
+			// 		},
+			// 	1000:{
+			// 			items:5,
+			// 			nav:true,
+			// 			loop:false
+			// 	}
+			// }
+
 	});
 
 
@@ -47,7 +70,3 @@ $(document).ready(function(){
 
 
 });
-
-
-
-
