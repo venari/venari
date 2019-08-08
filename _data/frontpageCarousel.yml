@@ -3,17 +3,16 @@
   image: img/front-page-carousel/tg-extract2.gif
   altText: "A video flythrough of Transmission Gully Link Roads"
 - title: Realtime data visualisation
-  description: "."
-  _image: img/carousel-img3.jpg
-  image: img/front-page-carousel/tg-extract2.gif
-  altText: ""
+  description: "Let us help you unlock the potential of your data."
+  image: img/front-page-carousel/auckland-vessels.gif
+  altText: "A visualisation of vessel movements in Auckland Harbour"
 - title: Realtime data visualisation 2
   description: "."
   _image: img/carousel-img4.jpg
   image: img/front-page-carousel/tg-extract2.gif
   altText: ""
 - title: Aerial Mapping
-  description: "Photogrammetry and 3D data capture"
+  description: "Photogrammetry and 3D data capture."
   image: img/front-page-carousel/castor-cresc-1x2-optimised.gif
   altText: "A 3D model of Castor Crescent, Porirua"
 
