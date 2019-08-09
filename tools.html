@@ -22,11 +22,27 @@ permalink: /tools/
         </div>
     </div>
 </section>
-    <!-- Portfolio Start -->
+
+<!-- Portfolio Start -->
 <section id="development">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
+
+            <div class="text-editor-wrap">
+            			<div class="title-bar"><span class="title">PostgreSQL — bash — 80x<span class="terminal-height">10</span></span></div>
+            			<div class="text-body">
+                    $ <span id="typed"></span>
+            			</div>
+            		</div>
+
+            <div id="typed-strings">
+                <p><strong>SELECT * FROM tools;</strong>^1000
+                  <br>`&gt; C#`^100 `Docker,`^100 `React,`^100 `Redux`^200 <br>`&gt; Geospatial`^200 `Esri,`^200 `OpenSource`^500 <br>`&gt; Embedded Systems`^300<br>`&gt; Databases:`^200 <br>`-&gt; SQL Server`^100 <br>`-&gt; MongoDB`^100 <br>`-&gt; PostgreSQL`^100 <br>`-&gt; SQLite`^1000 
+                </p>
+                <p>See full details below.</p>
+            </div>
+
             <div class="row">
               <h2>DotNet Core FullStack development</h2>
               <h4>C#, Docker, React, Redux</h4>
@@ -71,6 +87,20 @@ permalink: /tools/
         </div>
     </div>
 </section>
+
+<script>
+
+var options = {
+  stringsElement: '#typed-strings',
+  // strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  // strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`'],
+  typeSpeed: 40,
+  backSpeed: 0,
+  // loop: true
+};
+
+var typed = new Typed("#typed", options);
+</script>
 
 <!-- Move mentoring, and add aerial photography-->
 
