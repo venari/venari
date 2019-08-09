@@ -1,7 +1,11 @@
-- title: Realtime data visualisation
+- title: Realtime data processing
   description: "Let us help you unlock the potential of your data."
   image: img/front-page-carousel/auckland-vessels.gif
   altText: "A visualisation of vessel movements in Auckland Harbour"
+- title: Software Development Services
+  description: "From customisation to bespoke software projects"
+  image: img/front-page-carousel/development.jpg
+  altText: ""
 - title: Aerial Photography
   description: "Need aerial photography, video or 3D data capture for your project?"
   image: img/front-page-carousel/tg-extract2.gif
@@ -10,11 +14,6 @@
   description: "Photogrammetry and 3D data capture."
   image: img/front-page-carousel/castor-cresc-1x2-optimised.gif
   altText: "A 3D model of Castor Crescent, Porirua"
-- title: Realtime data visualisation 2
-  description: "."
-  _image: img/carousel-img4.jpg
-  image: img/front-page-carousel/tg-extract2.gif
-  altText: ""
 
 
 

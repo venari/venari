@@ -97,11 +97,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/vessels.jpg") no-repeat;
+  background: url("../img/background-header.gif") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  background-position: bottom;
+  padding: 25px 0 25px 0;
   position: relative;
 }
 #slider:before {
@@ -138,7 +138,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -344,9 +344,9 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #intro .frontpage-carousel {
   text-align: center;
-  width: 75%;
-  border: 1px solid #DEDEDE;
-  padding: 24px;
+  width: 100%;
+  /* border: 1px solid #DEDEDE; */
+  /* padding: 24px; */
   margin: 0 auto;
 }
 #intro .frontpage-carousel img {
