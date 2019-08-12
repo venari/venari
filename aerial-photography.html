@@ -29,16 +29,7 @@ permalink: /aerial-photography/
               <div class="col-md-6">
 
                 <div class="row">
-                  <div class="col-md-10">
-                    <div class="row">
-                      <h2>Aerial Photography</h2>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="row">
-                      <a href="../aerial-photography-hi-res-example" target=_blank>fullscreen</a>
-                    </div>
-                  </div>
+                  <h2>360&deg; Photospheres</h2>
                 </div>
 
                 <div class="row">
@@ -61,9 +52,11 @@ permalink: /aerial-photography/
                       caption: 'Titahi Bay, Porirua, New Zealand.',
                       navbar: false,
                       mousewheel: false
-                      // navbar_style: {
-                      //   backgroundColor: "rgba(58, 67, 77, 0.7)"
-                      // }
+                    });
+
+                    viewer.on('click', function() {
+                      var win = window.open("../aerial-photography-hi-res-example", '_blank');
+                      win.focus();
                     });
                   </script>
                 </div>
@@ -73,16 +66,7 @@ permalink: /aerial-photography/
               <div class="col-md-6">
 
                 <div class="row">
-                  <div class="col-md-10">
-                    <div class="row">
-                      <h2>Aerial Video</h2>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="row">
-                      <a href="https://youtu.be/VZlxIGwV9cA" target=_blank>fullscreen</a>
-                    </div>
-                  </div>
+                  <h2>Aerial Video</h2>
                 </div>
 
                 <div class="row">
@@ -94,44 +78,32 @@ permalink: /aerial-photography/
             <div class="row">
               <div class="col-md-6">
                 <div class="row">
-                  <div class="col-md-10">
-                    <div class="row">
-                      <h2>Aerial Mapping</h2>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="row">
-                      <a href="https://www.mapsmadeeasy.com/maps/public/da9bffd45abd486f95a03775bb8c1f4f/" target=_blank>fullscreen</a>
-                    </div>
-                  </div>
+                  <h2>Aerial Mapping</h2>
                 </div>
 
                 <div class="row">
-                  <iframe src="https://www.mapsmadeeasy.com/maps/public/da9bffd45abd486f95a03775bb8c1f4f" scrolling="no" title="Maps Made Easy" width="98%" height="400" frameBorder ="0"></iframe>
+                  <a href="https://www.mapsmadeeasy.com/maps/public/da9bffd45abd486f95a03775bb8c1f4f/" target=_blank>
+                    <img src="{{ site.baseurl }}/img/aerial-mapping.png" width=98%>
+                  </img></a>
                 </div>
 
               </div>
               <div class="col-md-6">
                 <div class="row">
-                  <div class="col-md-10">
-                    <div class="row">
-                      <h2>3D Data Capture</h2>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="row">
-                      <a href="https://www.mapsmadeeasy.com/maps/public_3D/da9bffd45abd486f95a03775bb8c1f4f/" target=_blank>fullscreen</a>
-                    </div>
-                  </div>
+                  <h2>3D Data Capture</h2>
                 </div>
 
                 <div class="row">
-                  <iframe src="https://www.mapsmadeeasy.com/maps/public_3D/da9bffd45abd486f95a03775bb8c1f4f" scrolling="no" title="Maps Made Easy" width="98%" height="400" frameBorder ="0"></iframe>
+                  <a href="https://www.mapsmadeeasy.com/maps/public_3D/da9bffd45abd486f95a03775bb8c1f4f/" target=_blank>
+                    <img src="{{ site.baseurl }}/img/front-page-carousel/castor-cresc-1x2-optimised.gif" width=98%></img>
+                  </a>
                 </div>
-
               </div>
             </div>
 
+            <div class="row">
+              <p>Click any of the examples above to see more detail.</p>
+            </div>
           </div>
     </div>
 </section>
