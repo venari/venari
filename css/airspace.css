@@ -406,13 +406,23 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.gif") no-repeat;
+  background-position: bottom left;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
 }
+#global-header[page="aerial"]{
+  background: url("../img/aerial-photography-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+  background-attachment: fixed;
+}
+
 #global-header:before {
   content: "";
   position: absolute;
