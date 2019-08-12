@@ -21,32 +21,31 @@ permalink: /contact/
 <section id="contact-form">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
-            </div>
-          </form>
+      <div class="block">
+        <form method="POST" action="https://formspree.io/info@venari.co.nz">
+
+        <div class="col-md-6 col-sm-12">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" name="name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email Address" name="email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject" name="subject">
+              </div>
+          </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+              <div class="form-group-2">
+                <textarea class="form-control" rows="3" placeholder="Your Message" name="message"></textarea>
+              </div>
+              <button class="btn btn-default" type="submit">Send Message</button>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
-          </form>
-        </div>
-      </div>
+      </form>
     </div>
+  </div>
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
@@ -56,10 +55,13 @@ permalink: /contact/
               <i class="fa fa-map-marker"></i>The Settlement, Level 1/1 Walton Leigh Avenue, Porirua
             </li>
             <li>
-              <i class="fa fa-envelope-o"></i>Email: leigh@venari.co.nz
+              <i class="fa fa-envelope-o"></i>Email: <a href="mailto:info@venari.co.nz">info@venari.co.nz</a>
             </li>
             <li>
-              <i class="fa fa-phone"></i>Phone:+64 21 271 1844
+              <i class="fa fa-phone"></i>Phone:<a href="tel:+6449794925">+64 4 979 4925</a>
+            </li>
+            <li>
+              <i class="fa fa-mobile"></i>Phone:<a href="tel:+64212711844">+64 21 271 1844</a>
             </li>
           </ul>
 
