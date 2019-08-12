@@ -874,3 +874,19 @@ img[src*="#thumbnail"] {
 img[src*="#portrait"] {
    width:200px!important;
 }
+
+/* About page styling */
+blockquote p{
+  font-size:18px;
+}
+
+blockquote footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
