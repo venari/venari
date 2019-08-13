@@ -1,22 +1,16 @@
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+Venari website hosted at [venari.co.nz](venari.co.nz).
 
-This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
+```
+bundle exec jekyll serve --livereload --host=0.0.0.0
+```
 
-## Usage
-To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
+- or to include draft posts:
+```
+bundle exec jekyll serve --livereload --drafts --host=0.0.0.0
+```
+Cloned from [this respository](https://github.com/ndrewtl/airspace-jekyll/fork), which is a Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's f
 
-## Examples
-Here are some projects that have used this Jekyll Theme:
-* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
-* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
-* [Mãos de amar](https://www.maosdeamar.com.br/)
-* [ATK Team](http://www.atksec.com/)
-* [Coding Club](https://ourcodingclub.github.io/)
-* [Dev Empathy Book Club](http://www.devempathybook.club/)
-* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
-
-## Steps for Setup:
+# Steps for Setup:
 
 ### Make sure you have Ruby
 
@@ -48,8 +42,8 @@ using RubyGems.
 
 Clone the repository, and `cd` into it:
 ```sh
-$ git clone https://github.com/ndrewtl/airspace-jekyll.git
-$ cd airspace-jekyll
+$ git clone https://github.com/venari/venari.git
+$ cd venari
 ```
 
 Install dependencies locally:
@@ -63,3 +57,12 @@ Now run the server:
 ```sh
 $ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
 ```
+
+
+
+## TO DO
+
+- [ ] Add comments functionality:
+  - https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/
+  - https://staticman.net/
+  - https://www.talkyard.io/blog-comments
