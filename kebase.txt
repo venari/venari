@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/leighghunt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://venari.co.nz
+  * I am leighghunt (https://keybase.io/leighghunt) on keybase.
+  * I have a public key ASCiT-pSeBY10Jk_ZnfOSXCLS0mfO2zFEkvvkQdGVJc-9Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bc668f2619124ca35630f83371181412aebc7a5a7cc038a88f9cb254aefa57fa0a",
+      "host": "keybase.io",
+      "kid": "0120a24fea52781635d0993f6677ce49708b4b499f3b6cc5124bef91074654973ef50a",
+      "uid": "9c016df1364e8b3bbafc3eb965ea5119",
+      "username": "leighghunt"
+    },
+    "merkle_root": {
+      "ctime": 1568939727,
+      "hash": "d4bf729a30543a46f3c8e7cfc36c6e9f89ea3065ecacade001f874dfa5bf96e1e45ced3b2efeba198e673ceadbcece13239a7e5830d6cafb461703e544d61b80",
+      "hash_meta": "f0feadcfefb4556b1d479c9dc6aca37cdc919cac94fc138128d7347d4be198f0",
+      "seqno": 7622499
+    },
+    "service": {
+      "entropy": "TR5PYTUgebzgFYK1wgTp78w+",
+      "hostname": "venari.co.nz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1568939736,
+  "expire_in": 504576000,
+  "prev": "8b43234a7d5b10707dac94c79b366845e06b028e3ef777126a32b6851d7c6566",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgok/qUngWNdCZP2Z3zklwi0tJnztsxRJL75EHRlSXPvUKp3BheWxvYWTESpcCFMQgi0MjSn1bEHB9rJTHmzZoReBrAo4+93cSajK2hR18ZWbEIA8TOcQJUW4TBq++8HRkqEZqr+ggPpKT17gdcSXU0X9lAgHCo3NpZ8RAltNZVtTvxphq/RW/bMJ39aWTfYJswZ9fMD0Tu4v9dbJhb7ibZh1ZoX+2jIrfiDetjQhR/hRg3OlqmI1kklJpDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICXNrPbBwZZ6+vAgK9zLqSBsVFFxuczK3q/mijAGNM6po3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leighghunt
+
+==================================================================
