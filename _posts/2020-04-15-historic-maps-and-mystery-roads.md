@@ -9,6 +9,8 @@ Thankfully the residents at the time saw sense and protested and the road was ne
 
 Anyway, I was unable to connect to a work server this afternoon, so this seemed like the perfect excuse for some Covid-19 Lockdown displacement activity, AKA georeferencing and webmapping...
 
+See below, or full screen <a href="https://whitby-1978.glitch.me/" target="_blank">here</a>.
+
 <!-- Copy and Paste Me -->
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
