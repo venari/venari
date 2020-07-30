@@ -13,3 +13,6 @@ The video below is draft as the construction projects are not complete, but illu
 
 
 To find out more about our aerial photography, 3D data capture and geospatial software development services, visit our <a href="{{ site.baseurl }}/aerial-photography">Aerial Photography Services</a> page.
+
+## UPDATE
+See our updated [post]({% post_url 2020-07-31-porirua-development-hyperlapse %}) detailing the results of this work with Porirua Development.
