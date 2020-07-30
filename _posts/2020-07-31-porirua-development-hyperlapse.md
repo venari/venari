@@ -5,10 +5,12 @@ layout: post
 
 This has been a fun project to work on with [Porirua Development][porirua-development] over the last 16 months, capturing the enormous progress that has taken place at Castor Crescent in Porirua, transforming it from a neglected field into 53 new homes.
 
-Work undertaken:
+By flying a predefined path multiple times, and then applying some fairly detailed post-processing, we are able to merge the video captures from different dates, illustrating the changes to the site over several months or years.
+
+This project involved:
 
 * 8 site visits capturing video
-* 30+ hours editing, and further refining the process
+* 30+ hours editing and post-processing, and further refining and optimising method
 
 
 [porirua-development]: https://poriruadevelopment.co.nz/
@@ -19,6 +21,7 @@ These two photospheres illustrate the changes on the site over 9 months.
 <div class="row">
   <div id="viewerBefore"></div>
   <div id="viewerAfter"></div>
+
   <style>
     #viewerBefore {
       width: 49%;
@@ -58,4 +61,9 @@ These two photospheres illustrate the changes on the site over 9 months.
     });
 
   </script>
+</div>
+## Hyperlapse video
+This is the first of two videos produced for Porirua Development. The second will be released in the near future.
+<div class="row">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAoD7ShRC7s?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
