@@ -7,7 +7,7 @@ This has been a fun project to work on with [Porirua Development][porirua-develo
 
 By flying a predefined path multiple times, and then applying some fairly detailed post-processing, we are able to merge the video captures and photos from different dates, to help illustrate the changes to a site over several months or years.
 
-This project involved 8 site visits capturing video and 30+ hours editing and post-processing, and further refining and optimising method.
+This project involved 8 site visits capturing video and 30+ hours editing and post-processing, and further refining and optimising the method.
 
 
 [porirua-development]: https://poriruadevelopment.co.nz/
