@@ -9,10 +9,9 @@ I've been testing a proof of concept for multi-month drone hyper-lapse video of 
 
 The video below is draft as the construction projects are not complete, but illustrates the concept:
 
+*__UPDATE!__ See our updated [post]({% post_url 2020-07-31-porirua-development-hyperlapse %}) detailing the results of this work with Porirua Development.*
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jRmD-J_e1kE" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
 
 
 To find out more about our aerial photography, 3D data capture and geospatial software development services, visit our <a href="{{ site.baseurl }}/aerial-photography">Aerial Photography Services</a> page.
-
-## UPDATE
-See our updated [post]({% post_url 2020-07-31-porirua-development-hyperlapse %}) detailing the results of this work with Porirua Development.

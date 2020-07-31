@@ -3,20 +3,17 @@ author: Leigh
 layout: post
 ---
 
-This has been a fun project to work on with [Porirua Development][porirua-development] over the last 16 months, capturing the enormous progress that has taken place at Castor Crescent in Porirua, transforming it from a neglected field into 53 new homes.
+This has been a fun project to work on with [Porirua Development][porirua-development] over the last 16 months, capturing the enormous progress that has taken place at Castor Crescent in Porirua, transforming it from a field into 53 new homes.
 
-By flying a predefined path multiple times, and then applying some fairly detailed post-processing, we are able to merge the video captures from different dates, illustrating the changes to the site over several months or years.
+By flying a predefined path multiple times, and then applying some fairly detailed post-processing, we are able to merge the video captures and photos from different dates, to help illustrate the changes to a site over several months or years.
 
-This project involved:
-
-* 8 site visits capturing video
-* 30+ hours editing and post-processing, and further refining and optimising method
+This project involved 8 site visits capturing video and 30+ hours editing and post-processing, and further refining and optimising method.
 
 
 [porirua-development]: https://poriruadevelopment.co.nz/
 
 ## Before and After
-These two photospheres illustrate the changes on the site over 9 months. You can drag the one on the left to move the viewpoint.
+These two photospheres illustrate the changes on the site over 9 months. You can drag the one on the left to move the view.
 
 <div class="row">
   <div id="viewerBefore"></div>
@@ -77,6 +74,13 @@ These two photospheres illustrate the changes on the site over 9 months. You can
 </div>
 ## Hyperlapse video
 This is the first of two videos produced for Porirua Development. The second will be released in the near future.
+
 <div class="row">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAoD7ShRC7s?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+Find out more about the project on Porirua Development's [Facebook Post][porirua-development-facebook-post]
+
+To find out more about our aerial photography, 3D data capture and geospatial software development services, visit our <a href="{{ site.baseurl }}/aerial-photography">Aerial Photography Services</a> page.
+
+[porirua-development-facebook-post]: https://www.facebook.com/PoriruaDevelopment/videos/2629542707310126/
