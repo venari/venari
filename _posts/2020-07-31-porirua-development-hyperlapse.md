@@ -79,8 +79,6 @@ This is the first of two videos produced for Porirua Development. The second wil
   <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAoD7ShRC7s?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Find out more about the project on Porirua Development's [Facebook Post][porirua-development-facebook-post]
+Find out more about the project on Porirua Development's <a href="https://www.facebook.com/PoriruaDevelopment/" target="_blank">Facebook Page</a>.
 
 To find out more about our aerial photography, 3D data capture and geospatial software development services, visit our <a href="{{ site.baseurl }}/aerial-photography">Aerial Photography Services</a> page.
-
-[porirua-development-facebook-post]: https://www.facebook.com/PoriruaDevelopment/videos/2629542707310126/
