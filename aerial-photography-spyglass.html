@@ -1,0 +1,47 @@
+---
+layout: page
+title: Spyglass Photosphere
+permalink: /aerial-photography-spyglass/
+---
+
+
+<style>
+  #viewer {
+    width: 100vw;
+    height: 65vh;
+  }
+</style>
+
+<div id="viewer"></div>
+
+<script>
+  var viewer = new PhotoSphereViewer({
+    container: 'viewer',
+    panorama: '{{ site.baseurl }}/img/panoramas/Equirectangular.Spyglass.jpg',
+    time_anim: 1500,
+    navbar: true,
+    default_long: -0.15,
+    default_lat: -0.25,
+    default_fov: 30,
+    min_fov: 20,
+    max_fov: 75,
+    anim_speed:'1rpm',
+    caption: 'A photosphere taken above Spyglass Lane during Lockdown Level 4, Porirua, New Zealand.',
+    navbar_style: {
+      backgroundColor: "rgba(58, 67, 77, 0.7)"
+    }
+  });
+</script>
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <p><a class="btn btn-default btn-sm" href="{{ site.baseurl }}/contact" >Contact us</a> to discuss your aerial photography requirements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
