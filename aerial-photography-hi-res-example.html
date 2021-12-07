@@ -15,21 +15,18 @@ permalink: /aerial-photography-hi-res-example/
 <div id="viewer"></div>
 
 <script>
-  var viewer = new PhotoSphereViewer({
+  var viewer = new PhotoSphereViewer.Viewer({
     container: 'viewer',
     panorama: '{{ site.baseurl }}/img/panoramas/TitahiBay_large.jpg',
-    time_anim: 1500,
+    autorotateDelay: 1500,
     navbar: true,
-    default_long: -0.15,
-    default_lat: -0.25,
-    default_fov: 30,
-    min_fov: 20,
-    max_fov: 75,
-    anim_speed:'1rpm',
+    defaultLong: -0.15,
+    defaultLat: -0.25,
+    defaultZoomLvl: 30,
+    minFov: 20,
+    maxFov: 75,
+    autorotateSpeed:'1rpm',
     caption: 'A photosphere taken above Titahi Bay, Porirua, New Zealand.',
-    navbar_style: {
-      backgroundColor: "rgba(58, 67, 77, 0.7)"
-    }
   });
 </script>
 

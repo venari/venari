@@ -42,12 +42,12 @@ permalink: /aerial-photography/
                   </style>
 
                   <script>
-                    var viewer = new PhotoSphereViewer({
+                    var viewer = new PhotoSphereViewer.Viewer({
                       container: 'viewer',
                       panorama: '{{ site.baseurl }}/img/panoramas/TitahiBay_medium.jpg',
-                      time_anim: 1500,
-                      default_long: -0.15,
-                      default_lat: -0.3,
+                      autorotateDelay: 1500,
+                      defaultLong: -0.15,
+                      defaultLat: -0.3,
                       caption: 'Titahi Bay, Porirua, New Zealand.',
                       navbar: false,
                       mousewheel: false

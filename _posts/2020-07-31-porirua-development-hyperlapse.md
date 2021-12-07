@@ -37,21 +37,21 @@ These two photospheres illustrate the changes on the site over 9 months. You can
     var viewerBefore = new PhotoSphereViewer({
       container: 'viewerBefore',
       panorama: '{{ site.baseurl }}/img/DJI_0986.JPG',
-      time_anim: 1500,
-      default_long: -0.15,
-      default_lat: -0.9,
+      autorotateDelay: 1500,
+      defaultLong: -0.15,
+      defaultLat: -0.9,
       caption: 'October 2019.',
       navbar: false,
       mousewheel: true,
-      anim_speed: '0.5rpm'
+      autorotateSpeed: '0.5rpm'
     });
 
     var viewerAfter = new PhotoSphereViewer({
       container: 'viewerAfter',
       panorama: '{{ site.baseurl }}/img/DJI_0402.JPG',
-      time_anim: false,
-      default_long: -0.28,
-      default_lat: -0.9,
+      autorotateDelay: false,
+      defaultLong: -0.28,
+      defaultLat: -0.9,
       caption: 'July 2020',
       navbar: false,
       mousewheel: false,
