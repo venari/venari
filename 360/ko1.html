@@ -1,0 +1,43 @@
+---
+layout: page
+title: Aerial Photography Services
+permalink: /360/ko1/
+---
+
+
+<style>
+  #viewer {
+    width: 100vw;
+    height: 80vh;
+  }
+</style>
+
+<div id="viewer"></div>
+
+<script>
+  var viewer = new PhotoSphereViewer.Viewer({
+    container: 'viewer',
+    panorama: '{{ site.baseurl }}/img/panoramas/Photosphere1.jpg',
+    autorotateDelay: 1500,
+    navbar: true,
+    defaultLong: -0.15,
+    defaultLat: -0.25,
+    defaultZoomLvl: 30,
+    minFov: 20,
+    maxFov: 75,
+    autorotateSpeed:'1rpm',
+    caption: 'A photosphere taken above Titahi Bay, Porirua, New Zealand.',
+  });
+</script>
+<!-- 
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <p><a class="btn btn-default btn-sm" href="{{ site.baseurl }}/contact" >Contact us</a> to discuss your aerial photography requirements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
