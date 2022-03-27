@@ -34,7 +34,7 @@ These two photospheres illustrate the changes on the site over 9 months. You can
 
   <script>
 
-    var viewerBefore = new PhotoSphereViewer({
+    var viewerBefore = new PhotoSphereViewer.Viewer({
       container: 'viewerBefore',
       panorama: '{{ site.baseurl }}/img/DJI_0986.JPG',
       autorotateDelay: 1500,
@@ -46,7 +46,7 @@ These two photospheres illustrate the changes on the site over 9 months. You can
       autorotateSpeed: '0.5rpm'
     });
 
-    var viewerAfter = new PhotoSphereViewer({
+    var viewerAfter = new PhotoSphereViewer.Viewer({
       container: 'viewerAfter',
       panorama: '{{ site.baseurl }}/img/DJI_0402.JPG',
       autorotateDelay: false,
@@ -61,13 +61,13 @@ These two photospheres illustrate the changes on the site over 9 months. You can
     viewerBefore.on('position-updated', (e, position) => {
       viewerAfter.rotate(
       {
-        latitude: position.args[0].latitude,// - 0.03,
-        longitude: position.args[0].longitude - 0.13
+        latitude: position.latitude,// - 0.03,
+        longitude: position.longitude - 0.13
       });
     });
 
     viewerBefore.on('zoom-updated', (e, zoomLevel) => {
-      viewerAfter.zoom(zoomLevel.args[0]);
+      viewerAfter.zoom(zoomLevel);
     });
 
   </script>
