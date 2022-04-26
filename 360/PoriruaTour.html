@@ -1,0 +1,121 @@
+---
+layout: page
+title: Esk Development
+permalink: /360/PoriruaTour/
+---
+
+
+<style>
+  #viewer {
+    width: 100vw;
+    height: 80vh;
+  }
+</style>
+
+<div id="viewer"></div>
+
+<script>
+
+  var viewer = new PhotoSphereViewer.Viewer({
+    container: 'viewer',
+    //panorama: '{{ site.baseurl }}/img/panoramas/DJI_0227.jpg',
+    //autorotateDelay: 1500,
+    navbar: true,
+    //defaultLong: -0.15,
+    //defaultLat: -0.25,
+    //defaultZoomLvl: 50,
+    //minFov: 20,
+    //maxFov: 120,
+    //autorotateSpeed:'1rpm',
+    //caption: 'A photosphere taken above the Esk Development, Porirua, New Zealand.',
+    plugins: [
+        [PhotoSphereViewer.VirtualTourPlugin, {
+            positionMode: PhotoSphereViewer.VirtualTourPlugin.MODE_GPS,
+            renderMode  : PhotoSphereViewer.VirtualTourPlugin.MODE_3D,
+        }],
+    ]
+
+  });
+
+    const nodes = [{ 
+        id: 'bothamley-park', 
+        name: 'Bothamley Park',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0488.jpg', 
+        position: [174.8648110673622, -41.13370283456142],
+        //panoData: { poseHeading: 350 },
+        links: [{
+            nodeId: 'esk', 
+        },{
+            nodeId: 'cannons-creek-park', 
+        },{
+            nodeId: 'niger-street', 
+        }]
+    },
+    {
+        id: 'cannons-creek-park', 
+        name: 'Cannons Creek Park',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0489.jpg', 
+        position: [174.86693226608074, -41.13714981593065],
+        panoData: { poseHeading: 355 },
+        links: [{
+            nodeId: 'bothamley-park', 
+        },{
+            nodeId: 'esk', 
+        },{
+            nodeId: 'niger-street', 
+        }]
+    },
+    { 
+        id: 'esk', 
+        name: 'Esk Development',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0227.jpg', 
+        position: [174.86838879229495, -41.13720268163188],
+        panoData: { poseHeading: 80 },
+        links: [{
+            nodeId: 'bothamley-park', 
+        },{
+            nodeId: 'cannons-creek-park',
+        }, {
+            nodeId: 'niger-street'
+        }] 
+    },
+    { 
+        id: 'niger-street', 
+        name: 'Niger Street Development',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0471.jpg', 
+        position: [174.87486517860356, -41.13519523885118],
+        panoData: { poseHeading: 260 },
+        links: [{
+            nodeId: 'bothamley-park', 
+        },{
+            nodeId: 'cannons-creek-park', 
+        },{
+            nodeId: 'esk', 
+        }] 
+    },
+    ];
+
+  //const markersPlugin = viewer.getPlugin(PhotoSphereViewer.MarkersPlugin);
+  var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
+
+  virtualTour.setNodes(nodes);
+
+  // markersPlugin.addMarker(/* ... */);
+
+  markersPlugin.on('select-marker', () => {
+    /* ... */
+  });
+  
+</script>
+
+<!-- <section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <p><a class="btn btn-default btn-sm" href="{{ site.baseurl }}/contact" >Contact us</a> to discuss your aerial photography requirements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
