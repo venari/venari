@@ -1,0 +1,57 @@
+---
+layout: page
+title: Esk Development
+permalink: /360/EskDevelopment2/
+---
+
+
+<style>
+  #viewer {
+    width: 100vw;
+    height: 80vh;
+  }
+</style>
+
+<div id="viewer"></div>
+
+<script>
+
+
+  var viewer = new PhotoSphereViewer.Viewer({
+    container: 'viewer',
+    panorama: '{{ site.baseurl }}/img/panoramas/DJI_0227.jpg',
+    autorotateDelay: 1500,
+    navbar: true,
+    defaultLong: -0.15,
+    defaultLat: -0.25,
+    defaultZoomLvl: 50,
+    minFov: 20,
+    maxFov: 120,
+    autorotateSpeed:'1rpm',
+    caption: 'A photosphere taken above the Esk Development, Porirua, New Zealand.',
+    plugins: [
+    ]
+
+  });
+
+  const markersPlugin = viewer.getPlugin(PhotoSphereViewer.MarkersPlugin);
+
+  // markersPlugin.addMarker(/* ... */);
+
+  markersPlugin.on('select-marker', () => {
+    /* ... */
+  });
+  
+</script>
+
+<!-- <section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <p><a class="btn btn-default btn-sm" href="{{ site.baseurl }}/contact" >Contact us</a> to discuss your aerial photography requirements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
