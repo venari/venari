@@ -18,16 +18,7 @@ permalink: /360/PoriruaTour/
 
   var viewer = new PhotoSphereViewer.Viewer({
     container: 'viewer',
-    //panorama: '{{ site.baseurl }}/img/panoramas/DJI_0227.jpg',
-    //autorotateDelay: 1500,
     navbar: true,
-    //defaultLong: -0.15,
-    //defaultLat: -0.25,
-    //defaultZoomLvl: 50,
-    //minFov: 20,
-    //maxFov: 120,
-    //autorotateSpeed:'1rpm',
-    //caption: 'A photosphere taken above the Esk Development, Porirua, New Zealand.',
     plugins: [
         [PhotoSphereViewer.VirtualTourPlugin, {
             positionMode: PhotoSphereViewer.VirtualTourPlugin.MODE_GPS,
@@ -95,16 +86,9 @@ permalink: /360/PoriruaTour/
     },
     ];
 
-  //const markersPlugin = viewer.getPlugin(PhotoSphereViewer.MarkersPlugin);
   var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
 
   virtualTour.setNodes(nodes);
-
-  // markersPlugin.addMarker(/* ... */);
-
-  markersPlugin.on('select-marker', () => {
-    /* ... */
-  });
   
 </script>
 
