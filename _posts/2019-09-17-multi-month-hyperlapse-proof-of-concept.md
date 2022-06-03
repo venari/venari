@@ -9,7 +9,7 @@ I've been testing a proof of concept for multi-month drone hyper-lapse video of 
 
 The video below is draft as the construction projects are not complete, but illustrates the concept:
 
-*__UPDATE!__ See our updated [post]({% post_url 2020-07-31-porirua-development-hyperlapse %}) detailing the results of this work with Porirua Development.*
+*__UPDATE!__ See our updated posts [here]({% post_url 2020-07-31-porirua-development-hyperlapse %}) and [here]({% post_url 2022-06-03-kenepuru-homes-taupiri-rise-hyperlapse %}) detailing the results of this work with Porirua Development and Kenepuru Homes.*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jRmD-J_e1kE" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
 
