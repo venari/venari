@@ -1,0 +1,106 @@
+---
+layout: page
+title: Epuni Development
+permalink: /360/EpuniTour/
+---
+
+
+<style>
+  #viewer {
+    width: 100vw;
+    height: 80vh;
+  }
+</style>
+
+<div id="viewer"></div>
+
+<script>
+
+  var viewer = new PhotoSphereViewer.Viewer({
+    container: 'viewer',
+    navbar: true,
+    defaultLat: -0.25,
+    plugins: [
+        [PhotoSphereViewer.VirtualTourPlugin, {
+            positionMode: PhotoSphereViewer.VirtualTourPlugin.MODE_GPS,
+            renderMode  : PhotoSphereViewer.VirtualTourPlugin.MODE_3D,
+        }],
+    ]
+
+  });
+
+    const nodes = [{ 
+        id: 'DJI_0617', 
+        name: 'DJI_0617',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0617.jpg', 
+        position: [174.93104533093978, -41.20790692704585],
+        panoData: { poseHeading: 45 },
+        links: [{
+            nodeId: 'DJI_0619', 
+        },{
+            nodeId: 'DJI_0620', 
+        },{
+            nodeId: 'DJI_0621', 
+        }]
+    },
+    {
+        id: 'DJI_0619', 
+        name: 'DJI_0619',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0619.jpg', 
+        position: [174.93080807925452, -41.2077988412628],
+        panoData: { poseHeading: 135 },
+        links: [{
+            nodeId: 'DJI_0617', 
+        },{
+            nodeId: 'DJI_0620', 
+        },{
+            nodeId: 'DJI_0621', 
+        }]
+    },
+    { 
+        id: 'DJI_0620', 
+        name: 'DJI_0620',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0620.JPG', 
+        position: [174.9305090751696, -41.2082675651819],
+        panoData: { poseHeading: 45 },
+        links: [{
+            nodeId: 'DJI_0617', 
+        },{
+            nodeId: 'DJI_0619',
+        }, {
+            nodeId: 'DJI_0621'
+        }] 
+    },
+    { 
+        id: 'DJI_0621', 
+        name: 'DJI_0621',
+        panorama: '{{ site.baseurl }}/img/panoramas/DJI_0621.jpg', 
+        position: [174.93161304650488, -41.207590287798716],
+        panoData: { poseHeading: 227 },
+        links: [{
+            nodeId: 'DJI_0617', 
+        },{
+            nodeId: 'DJI_0619', 
+        },{
+            nodeId: 'DJI_0620', 
+        }] 
+    },
+    ];
+
+  var virtualTour = viewer.getPlugin(PhotoSphereViewer.VirtualTourPlugin);
+
+  virtualTour.setNodes(nodes);
+  
+</script>
+
+<!-- <section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <p><a class="btn btn-default btn-sm" href="{{ site.baseurl }}/contact" >Contact us</a> to discuss your aerial photography requirements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
