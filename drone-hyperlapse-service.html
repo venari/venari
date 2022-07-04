@@ -1,0 +1,224 @@
+---
+layout: page
+title: Drone Hyperlapse Service
+permalink: /drone-hyperlapse-service/
+---
+
+
+    <!-- Slider Start -->
+<section id="global-header" page="aerial">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Drone Hyperlapse Service</h1>
+                    <p>
+                      We can capture your infrastructure or construction project from brown or green field through construction to finalisation 
+                      and show several months or years of work in a short 30-90s video.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Portfolio Start -->
+<section id="development">
+    <div class="container">
+        <div class="col-md-12">
+
+          
+          <div class="row">
+            <h2>Hyperlapses</h2>
+            <h4>What is a Hyperlapse</h4>
+              <p>Whilst a timelapse is typically taken from a fixed point, a hyperlapse is taken from a moving camera, either on 
+                <a href="https://www.youtube.com/watch?v=DcylVx2ex78&t=64s&ab_channel=DigitalRevTV" target="_blank">foot</a>, 
+                from a vehicle or <a href="https://www.youtube.com/watch?v=AHrCI9eSJGQ&t=3s&ab_channel=JeffHK" target="_blank">boat</a>, 
+                or as in our case a <a href="https://www.youtube.com/watch?v=cZ7tBBjGS0o" target="_blank">drone</a>.</p>
+
+              <p>Rather than simply speeding up the footage as is the case in a normal timelapse or hyperlapse, we align and stitch together multiple captures
+                 to a create a seamless story to show the progression of your project across many months, or in the case of larger projects, years.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+
+              <div class="row">
+                <h5>Kenepuru Homes, Taupiri Rise, Titahi Bay</h5>
+              </div>
+
+              <div class="row">
+                <!-- <iframe width="98%" height="315" src="https://www.youtube.com/watch?v=ZAoD7ShRC7s&ab_channel=VenariLtd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cZ7tBBjGS0o?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+              <div class="row">
+                <h5>Porirua Development, Castor Crescent, Cannons Creek</h5>
+              </div>
+
+              <div class="row">
+                <!-- <iframe width="98%" height="315" src="https://www.youtube.com/watch?v=cZ7tBBjGS0o&ab_channel=VenariLtd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAoD7ShRC7s?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- <div class="row">
+            <p>Click any of the examples above to see more detail.</p>
+          </div> -->
+
+
+          <div class="row">
+            <h4>Photospheres</h4>
+            <p>At the same time as capturing hyperlapses, if desired we can also capture photospheres from the same location, enabling you to further share progress of your project.
+              These two photospheres illustrate the changes on a constructions site over 9 months. You can drag the one on the left to move the view.</p>
+
+            <div class="row">
+              <div id="viewerBefore1"></div>
+              <div id="viewerAfter1"></div>
+            
+              <style>
+                #viewerBefore1 {
+                  width: 49%;
+                  height: 500px;
+                  float:left;
+                }
+                #viewerAfter1 {
+                  width: 49%;
+                  height: 500px;
+                  float:right;
+                }
+              </style>
+            
+              <script>
+            
+                var viewerBefore1 = new PhotoSphereViewer.Viewer({
+                  container: 'viewerBefore1',
+                  panorama: '{{ site.baseurl }}/img/DJI_0986.JPG',
+                  autorotateDelay: 1500,
+                  defaultLong: -0.15,
+                  defaultLat: -0.9,
+                  caption: 'October 2019.',
+                  navbar: false,
+                  mousewheel: true,
+                  autorotateSpeed: '0.5rpm'
+                });
+            
+                var viewerAfter1 = new PhotoSphereViewer.Viewer({
+                  container: 'viewerAfter1',
+                  panorama: '{{ site.baseurl }}/img/DJI_0402.JPG',
+                  autorotateDelay: false,
+                  defaultLong: -0.28,
+                  defaultLat: -0.9,
+                  caption: 'July 2020',
+                  navbar: false,
+                  mousewheel: false,
+                  mousemove: false,
+                });
+            
+                viewerBefore1.on('position-updated', (e, position) => {
+                  viewerAfter1.rotate(
+                  {
+                    latitude: position.latitude,// - 0.03,
+                    longitude: position.longitude - 0.13
+                  });
+                });
+            
+                viewerBefore1.on('zoom-updated', (e, zoomLevel) => {
+                  viewerAfter1.zoom(zoomLevel);
+                });
+            
+              </script>
+            </div>      
+
+            <!-- <p>These two photospheres illustrate the changes before and after opening of the Transmission Gully Kenepuru Interchange.</p>
+
+            <div class="row">
+              <div id="viewerBefore2"></div>
+              <div id="viewerAfter2"></div>
+            
+              <style>
+                #viewerBefore2 {
+                  width: 49%;
+                  height: 500px;
+                  float:left;
+                }
+                #viewerAfter2 {
+                  width: 49%;
+                  height: 500px;
+                  float:right;
+                }
+              </style>
+            
+              <script>
+            
+                var viewerBefore2 = new PhotoSphereViewer.Viewer({
+                  container: 'viewerBefore2',
+                  panorama: '{{ site.baseurl }}/img/panoramas/DJI_0213.JPG',
+                  autorotateDelay: 1500,
+                  defaultLong: -1.15,
+                  //defaultLat: -0.9,
+                  caption: 'March 2022',
+                  navbar: false,
+                  mousewheel: true,
+                  autorotateSpeed: '0.5rpm'
+                });
+            
+                var viewerAfter2 = new PhotoSphereViewer.Viewer({
+                  container: 'viewerAfter2',
+                  panorama: '{{ site.baseurl }}/img/panoramas/DJI_0639.JPG',
+                  autorotateDelay: false,
+                  defaultLong: 1.72-1.15,
+                  //defaultLat: -0.9,
+                  caption: 'July 2022',
+                  navbar: false,
+                  mousewheel: false,
+                  mousemove: false,
+                });
+            
+                viewerBefore2.on('position-updated', (e, position) => {
+                  viewerAfter2.rotate(
+                  {
+                    latitude: position.latitude,// - 0.03,
+                    longitude: position.longitude + 1.72
+                  });
+                });
+            
+                viewerBefore2.on('zoom-updated', (e, zoomLevel) => {
+                  viewerAfter2.zoom(zoomLevel);
+                });
+            
+              </script>
+            </div>      -->
+
+          </div>
+          <div>
+            <p>
+              
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Need aerial photography, video or 3D data capture for your project?</h2>
+          <p>Contact us to discuss your requirements.</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
