@@ -1,0 +1,27 @@
+---
+layout: page
+title: Aerial Photography Services
+permalink: /360/welly_3/
+---
+
+
+<style>
+  #viewer {
+    width: 100vw;
+    height: 80vh;
+  }
+</style>
+
+<div id="viewer"></div>
+
+<script>
+  var viewer = new PhotoSphereViewer.Viewer({
+    container: 'viewer',
+    panorama: '{{ site.baseurl }}/img/panoramas/DJI_0284.JPG',
+    autorotateDelay: 1500,
+    navbar: true,
+    minFov: 20,
+    maxFov: 75,
+    autorotateSpeed:'1rpm',
+  });
+</script>
