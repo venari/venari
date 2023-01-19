@@ -1,0 +1,30 @@
+---
+layout: page
+title: Bothamley Park, looking towards Esk Development and Cannons Creek Park
+permalink: /360/BothamleyPark2/
+---
+
+
+<style>
+  #viewer {
+    width: 100vw;
+    height: 80vh;
+  }
+</style>
+
+<div id="viewer"></div>
+
+<script>
+  var viewer = new PhotoSphereViewer.Viewer({
+    container: 'viewer',
+    panorama: '{{ site.baseurl }}/img/panoramas/DJI_0291.BothamleyPark.JPG',
+    autorotateDelay: 1500,
+    navbar: true,
+    defaultLong: -45,
+    defaultLat: -0.25,
+    defaultZoomLvl: 30,
+    minFov: 20,
+    maxFov: 75,
+    autorotateSpeed:'1rpm',
+  });
+</script>
