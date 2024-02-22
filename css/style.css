@@ -32,3 +32,8 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.smallimage {
+  padding-left: 30px;
+  width: 50%!important;
+}

@@ -3,7 +3,7 @@ author: Leigh
 layout: post
 ---
 
-A recent post on a local community Facebook page shared a great local map from 1978. The original poster commented that people may wonder why a main road (Postgate Drive) abruptly turned 90 degrees into another (Spinnaker Drive). The answer was the proposed "Pauatahanui Limited Access Highway" that would have essentially cut the village in half.
+A recent post on a local community Facebook page shared a great local map from 1978. The original poster commented that people may wonder why a main  road (Postgate Drive) abruptly turned 90 degrees into another (**Spinnaker** Drive). The answer was the proposed "Pauatahanui Limited Access Highway" that would have essentially cut the village in half.
 
 Thankfully the residents at the time saw sense and protested and the road was never built - however much of the proposed route remains reserve land.
 
