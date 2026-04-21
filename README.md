@@ -1,6 +1,9 @@
 Venari website hosted at [venari.co.nz](venari.co.nz).
 
 ```
+mise use -g ruby@3.3.10
+bundle config set path 'vendor/bundle'
+bundle install
 bundle exec jekyll serve --livereload --host=0.0.0.0
 ```
 
